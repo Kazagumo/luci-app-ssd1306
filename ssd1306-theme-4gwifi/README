@@ -1,0 +1,4 @@
+如何使用此主题
+1.安装ipk
+2.执行 uci set ssd1306.theme=/usr/etc/oled/ssd1306-theme-4gwifi && uci commit ssd1306 以设置主题
+3.重启ssd1306应用设置
