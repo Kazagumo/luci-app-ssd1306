@@ -1,0 +1,2 @@
+config ssd1306
+    option theme '/usr/etc/oled/default'

@@ -1,0 +1,14 @@
+{
+  "name":"4G无线WIFI",
+  "display_settings":{"bus":0,"addr":60,"refresh":500,"protect_interval":30,"protect_duration":5},
+  "display_widget":[
+    {"widget_name":"连接数","x_pos":"center","y_pos":10,"data_source":"exec","contents":{"path":"sh","command":"/etc/oled/scripts/connect_num.sh","font":"u8g2_font_wqy12_t_gb2312"}},
+    {"widget_name":"信号","x_pos":0,"y_pos":10,"data_source":"file","contents":{"path":"/tmp/oled/signal","font":"u8g2_font_wqy12_t_gb2312"}},
+    {"widget_name":"时间","x_pos":"right","y_pos":10,"data_source":"exec","contents":{"path":"date","command":"+%H:%M","font":"u8g2_font_wqy12_t_gb2312"}},
+    {"widget_name":"信号","x_pos":"center","y_pos":29,"data_source":"file","contents":{"path":"/tmp/oled/operator","font":"u8g2_font_wqy16_t_gb2312"}},
+    {"widget_name":"网速rx","x_pos":0,"y_pos":46,"data_source":"file","contents":{"path":"/tmp/oled/netspeed_rx","font":"u8g2_font_wqy12_t_gb2312"}},
+    {"widget_name":"网速tx","x_pos":0,"y_pos":63,"data_source":"file","contents":{"path":"/tmp/oled/netspeed_tx","font":"u8g2_font_wqy12_t_gb2312"}},
+    {"widget_name":"cpu占用","x_pos":"right","y_pos":46,"data_source":"file","contents":{"path":"/tmp/oled/cpustat","font":"u8g2_font_wqy12_t_gb2312"}},
+    {"widget_name":"温度","x_pos":"right","y_pos":63,"data_source":"exec","contents":{"path":"sh","command":"/etc/oled/scripts/cputemp.sh","font":"u8g2_font_wqy12_t_gb2312"}}
+  ]
+}

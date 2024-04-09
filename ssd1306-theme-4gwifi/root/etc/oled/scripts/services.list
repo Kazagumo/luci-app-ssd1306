@@ -1,0 +1,4 @@
+cpustat.sh
+mm_operator.sh
+mm_signal.sh
+netspeed.sh wwan0

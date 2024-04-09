@@ -1,0 +1,9 @@
+{
+    "name":"default",
+    "display_settings":{"bus":0,"addr":60,"refresh":100,"protect_interval":30,"protect_duration":5},
+    "display_widget":[
+      {"widget_name":"speed","x_pos":"center","y_pos":20,"data_source":"text","contents":{"text":"错误！","font":"u8g2_font_wqy16_t_gb2312"}},
+      {"widget_name":"speed","x_pos":"center","y_pos":36,"data_source":"text","contents":{"text":"未检测到配置","font":"u8g2_font_wqy14_t_gb2312"}},
+      {"widget_name":"speed","x_pos":"center","y_pos":50,"data_source":"text","contents":{"text":"请检查文件","font":"u8g2_font_wqy14_t_gb2312"}}
+    ]
+  }

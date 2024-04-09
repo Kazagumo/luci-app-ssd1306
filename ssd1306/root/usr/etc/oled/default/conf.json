@@ -1,0 +1,9 @@
+{
+    "name":"default",
+    "display_settings":{"bus":0,"addr":60,"refresh":500,"protect_interval":30,"protect_duration":5},
+    "display_widget":[
+      {"widget_name":"speed","x_pos":"center","y_pos":20,"data_source":"text","contents":{"text":"安装完毕！","font":"u8g2_font_wqy16_t_gb2312"}},
+      {"widget_name":"speed","x_pos":"center","y_pos":36,"data_source":"text","contents":{"text":"编辑或下载一个主题","font":"u8g2_font_wqy14_t_gb2312"}},
+      {"widget_name":"speed","x_pos":"center","y_pos":50,"data_source":"text","contents":{"text":"即可开始使用","font":"u8g2_font_wqy14_t_gb2312"}}
+    ]
+}
