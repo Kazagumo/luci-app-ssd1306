@@ -7,7 +7,6 @@ SCRIPT_PATH=$THEME/scripts
 CONFIG=$THEME/conf.json
 
 start_service(){
-	mkdir -p /tmp/oled
 	if [ -f "$THEME/init.sh" ]; then
 	bash $THEME/init.sh
 	fi
